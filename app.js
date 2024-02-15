@@ -10,4 +10,5 @@ $(document).on("change", "input[type=checkbox]", function () {
   } else {
     $(this).parent().css("text-decoration", "none")
   }
+  console.log("test")
 })
